@@ -1,0 +1,7 @@
+.line {
+    height: 44px;
+    background-color: #B97A50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

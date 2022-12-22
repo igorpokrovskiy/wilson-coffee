@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/TTCommons-Regular.woff2") format("woff2"),
+    url("/fonts/TTCommons-Regular.woff") format("woff"),
+    url("/fonts/TTCommons-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 500;
+    src: url("/fonts/TTCommons-Medium.woff2") format("woff2"),
+    url("/fonts/TTCommons-Medium.woff") format("woff"),
+    url("/fonts/TTCommons-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/TTCommons-Bold.woff2") format("woff2"),
+    url("/fonts/TTCommons-Bold.woff") format("woff"),
+    url("/fonts/TTCommons-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'TT Rationalist';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/TTRationalist-Regular.woff2") format("woff2"),
+    url("/fonts/TTRationalist-Regular.woff") format("woff"),
+    url("/fonts/TTRationalist-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'TT Rationalist';
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/TTRationalist-Bold.woff2") format("woff2"),
+    url("/fonts/TTRationalist-Bold.woff") format("woff"),
+    url("/fonts/TTRationalist-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: 'TT Rationalist';
+    font-style: normal;
+    font-weight: 800;
+    src: url("/fonts/TTRationalist-XBold.woff2") format("woff2"),
+    url("/fonts/TTRationalist-XBold.woff") format("woff"),
+    url("/fonts/TTRationalist-XBold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Tautz';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Tautz.woff2") format("woff2"),
+    url("/fonts/Tautz.woff") format("woff"),
+    url("/fonts/Tautz.ttf") format("ttf");
+}

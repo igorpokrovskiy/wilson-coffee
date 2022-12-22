@@ -1,0 +1,8 @@
+.promo {
+    height: 516px;
+    width: 1280px;
+    background-image: url(/images/promo_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

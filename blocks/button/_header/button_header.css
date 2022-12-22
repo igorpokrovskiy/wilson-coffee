@@ -1,0 +1,10 @@
+.button_header {
+    width: 174px;
+    height: 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid black;
+    margin: 31px 83px 31px auto;
+
+}

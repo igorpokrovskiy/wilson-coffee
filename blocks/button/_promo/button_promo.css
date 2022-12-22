@@ -1,0 +1,9 @@
+.button_promo {
+    width: 325px;
+    height: 48px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: black;
+    border: none;
+    margin: 0 auto;
+}

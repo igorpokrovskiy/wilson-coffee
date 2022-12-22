@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Wilson Coffee</title>
+</head>
+<body class="page">
+    <header class="header">
+        <nav class="row">
+        <img class="logo_place-header" src="./images/header_logo.svg" alt="Wilson Coffee">
+        <ul class="menu">
+            <li class="menu_devider"></li>
+            <li class="menu_item"><a class="menu_item-link" href="">О нас</a></li>
+            <li class="menu_devider"></li>
+            <li class="menu_item"><a class="menu_item-link" href="">Форматы кофеен</a></li>
+            <li class="menu_devider"></li>
+            <li class="menu_item"><a class="menu_item-link" href="">Что входит в франшизу</a></li>
+            <li class="menu_devider"></li>
+            <li class="menu_item"><a class="menu_item-link" href="">Условия франшизы</a></li>
+            <li class="menu_devider"></li>
+            <li class="menu_item"><a class="menu_item-link" href="">Этапы</a></li>
+            <li class="menu_devider"></li>
+        </ul>
+        <button class="button_header" onclick="window.open('tel:+79287603603');"><p class="button_header-text">+7 928 760 36 03</p></button>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="promo">
+            <div class="promo_offer">
+                <h1 class="promo_title">Открой собственную кофейню за 1 месяц и зарабатывай от 120 000 р</h1>
+                <img class="promo_scratch" src="./images/promo_scratch.svg">
+            <p class="promo_subtitle">Наша команда профессионалов поможет тебе в этом!</p>
+            <button class="button button_promo"><p class="button__text">Получить смету и презентацию</p></button>
+        </div>
+        </section>
+        <section class="line">
+            <div class='marquee' style='overflow:hidden'>Wilson Coffee Wilson Coffee Wilson Coffee Wilson Coffee Wilson Coffee Wilson Coffee Wilson Coffee</div>    
+        </section>
+        <section class="about">
+
+        </section>
+        <section class="video">
+
+        </section>
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
+<script>
+    $(function() {
+   $('.marquee').marquee({
+       duration: 17000,
+       startVisible: true,
+       duplicated: true
+});
+});
+   </script>
+</body>
+</html>

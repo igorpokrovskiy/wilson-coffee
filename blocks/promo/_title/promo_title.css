@@ -1,0 +1,11 @@
+.promo_title {
+    margin: 0;
+    width: 671px;
+    height: 164px;
+    font-family: 'Tautz';
+    font-size: 40px;
+    line-height: 59px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #B97A50;
+}

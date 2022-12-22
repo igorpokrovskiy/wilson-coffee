@@ -1,0 +1,9 @@
+.marquee {
+    margin: 0 auto;
+    font-family: 'TT Commons';
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    align-self:flex-end;
+}

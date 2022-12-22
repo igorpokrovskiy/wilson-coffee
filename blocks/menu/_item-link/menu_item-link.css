@@ -1,0 +1,8 @@
+.menu_item-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align:bottom;
+    color: black;
+}
