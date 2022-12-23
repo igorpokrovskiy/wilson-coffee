@@ -1,0 +1,8 @@
+.about__accent {
+    position: absolute;
+    left: 330px;
+    top:1170px;
+    width: 302px;
+    height: 74px;
+    z-index: 1;
+}

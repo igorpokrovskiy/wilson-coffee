@@ -1,0 +1,9 @@
+.options__element {
+        width: 364px;
+        border-right: 1.5px solid black;
+}
+    
+.options__element:last-of-type {
+        border-right: none;
+
+}

@@ -1,0 +1,9 @@
+.video__title {
+    margin: 0;
+    padding: 87px 404px 0 404px;
+    font-family: 'Tautz';
+    font-size: 28px;
+    line-height: 41.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}

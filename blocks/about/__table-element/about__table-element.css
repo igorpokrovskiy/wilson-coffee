@@ -1,0 +1,8 @@
+.about__table-element {
+    width: 370px;
+    border-right: 1.5px solid black;;
+}
+
+.about__table-element:last-of-type {
+    border-right: none;
+}

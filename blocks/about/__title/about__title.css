@@ -1,0 +1,12 @@
+.about__title {
+    width: 401px;
+    height: 108px;
+    font-family: 'Tautz';
+    font-weight: 400;
+    line-height: 41.3px;
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+    margin: 234px 518px 30px 361px;
+    z-index: 2;
+}

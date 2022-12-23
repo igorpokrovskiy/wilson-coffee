@@ -1,0 +1,9 @@
+.options__title {
+    margin: 0;
+    padding: 85px 475px 46px 475px;
+    font-family: 'Tautz';
+    font-size: 28px;
+    line-height: 41.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}

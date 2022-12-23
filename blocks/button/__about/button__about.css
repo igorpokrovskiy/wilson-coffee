@@ -1,0 +1,9 @@
+.button__about {
+    width: 352px;
+    height: 48px;
+    border-radius: 8.75px;
+    cursor: pointer;
+    background: #B97A50;
+    border: none;
+    margin: 0 368px 434px 560px;
+}

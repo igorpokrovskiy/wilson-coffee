@@ -1,0 +1,8 @@
+.options__container {
+    display: flex;
+    margin: 0 84px 54px;
+    width: 1107px;
+    height: 673px;
+    border-radius: 17.5px;
+    border: 1.5px solid black;
+}

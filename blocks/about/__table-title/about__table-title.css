@@ -1,0 +1,9 @@
+.about__table-title {
+    font-family: 'Tautz';
+    text-transform:uppercase ;
+    font-size: 28px;
+    line-height: 60px;
+    color: #B97A50;
+    margin: 24px 0 25px 25px;
+    border-bottom: 1.5px solid black;
+}
