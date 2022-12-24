@@ -1,3 +1,12 @@
 .option__element-invest {
-    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 306px;
+    height: 60px;
+    font-family: 'TT Rationalist';
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 17px;
+    padding-bottom: 0;
 }

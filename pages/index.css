@@ -55,3 +55,6 @@
 @import url(../blocks/options/__element-profit/option__element-profit.css);
 @import url(../blocks/options/__element-profit-name/option__element-profit-name.css);
 @import url(../blocks/options/__element-profit-value/option__element-profit-value.css);
+@import url(../blocks/include/include.css);
+@import url(../blocks/include/__title/include__title.css);
+@import url(../blocks/include/__caption/include__caption.css);
