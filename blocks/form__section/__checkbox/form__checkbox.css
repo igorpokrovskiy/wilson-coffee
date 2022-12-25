@@ -1,0 +1,7 @@
+.form__checkbox {
+    width: 37px;
+    height: 29px;
+    color: transparent;
+    border-radius: 8.75px;
+    border: 1.5px solid black;
+}

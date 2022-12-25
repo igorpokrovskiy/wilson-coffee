@@ -1,0 +1,11 @@
+.terms__element-title {
+    margin: 0 auto;
+    font-family: 'TT Rationalist';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36.6px;
+    padding: 45px 52px 21px 52px;
+    width: 262px;
+}

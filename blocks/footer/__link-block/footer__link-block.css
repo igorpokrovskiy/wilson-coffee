@@ -1,0 +1,9 @@
+.footer__link-block {
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-top: 64px;
+    width: 683px;
+    display: flex;
+    justify-content: space-between;
+}

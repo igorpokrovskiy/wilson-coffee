@@ -1,0 +1,8 @@
+.form__container {
+    margin: 0 auto;
+    margin-top: 85px;
+    width: 1112px;
+    height: 476px;
+    border: 1.75px solid black;
+    border-radius: 17.5px;
+}

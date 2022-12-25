@@ -1,0 +1,8 @@
+.team__about {
+    margin: 0 86px 0 86px;
+    padding-top: 45px;
+    width: 774px;
+    height: 248px;
+    display: flex;
+    justify-content: space-between;
+}

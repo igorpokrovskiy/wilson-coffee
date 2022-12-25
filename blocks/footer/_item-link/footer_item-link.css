@@ -1,0 +1,9 @@
+.footer_item-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'TT Commons';
+    font-size: 17px;
+    line-height: 19.55px;
+    font-weight: 400;
+    color: black;
+}

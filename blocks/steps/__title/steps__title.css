@@ -1,0 +1,12 @@
+.steps__title {
+    margin: 0 auto;
+    padding-top: 86px;
+    padding-bottom: 60px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Tautz';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41.3px;
+}

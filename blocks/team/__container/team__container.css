@@ -1,0 +1,7 @@
+.team__container {
+    margin: 0;
+    padding: 40px 143px 24px 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

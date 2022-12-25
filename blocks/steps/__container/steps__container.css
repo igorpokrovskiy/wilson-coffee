@@ -1,0 +1,8 @@
+.steps__container {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}

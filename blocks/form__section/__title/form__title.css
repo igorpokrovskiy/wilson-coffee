@@ -1,0 +1,10 @@
+.form__title {
+    margin: 0 auto;
+    padding: 86px 267px 50px 82px;
+    width: 767px;
+    height: 67px;
+    font-family: 'Tautz';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41.3px;
+}

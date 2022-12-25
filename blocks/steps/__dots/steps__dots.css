@@ -1,0 +1,6 @@
+.steps__dots {
+    margin: 0 auto;
+    width: 915px;
+    padding-top: 40px;
+    display: flex;
+}

@@ -1,0 +1,6 @@
+.footer__contact-block-social {
+    margin: 0 auto;
+    width: 174px;
+    display: flex;
+    justify-content: flex-end;
+}

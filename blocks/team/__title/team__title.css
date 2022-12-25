@@ -1,0 +1,11 @@
+.team__title {
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 200px;
+    font-family: 'Tautz';
+    font-size: 28px;
+    line-height: 41.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}

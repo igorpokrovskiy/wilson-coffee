@@ -1,0 +1,8 @@
+.team__logo-element {
+    margin: 0 auto;
+    width: 134px;
+    height: 134px;
+}
+.team__logo-element:first-of-type {
+    height: 138px;
+}

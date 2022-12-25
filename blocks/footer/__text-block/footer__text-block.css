@@ -1,0 +1,7 @@
+.footer__text-block {
+    margin: 0 auto;
+    width: 683px;
+    padding-top: 10px;
+    height: 35px;
+    display: flex;
+}
