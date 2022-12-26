@@ -1,5 +1,7 @@
 .option__element-profit {
     margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 44px;
     display: flex;
     align-items: center;
     justify-content: space-between;

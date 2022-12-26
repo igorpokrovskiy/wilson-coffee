@@ -6,3 +6,11 @@
     vertical-align:bottom;
     color: black;
 }
+
+.menu_item-link:hover {
+    color: #B97A50;
+}
+
+.menu_item-link:active {
+    font-weight: 600;
+}

@@ -1,6 +1,6 @@
 .options__element-image {
     margin: 0 auto;
-    width: 200px;
-    height: 300px;
-    background-color: transparent;
+    min-width: 358px;
+    min-height: 239px;
+    padding-top: 26px;
 }

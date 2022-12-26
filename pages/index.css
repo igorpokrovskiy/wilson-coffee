@@ -77,7 +77,9 @@
 @import url(../blocks/terms/__offer/terms__offer.css);
 @import url(../blocks/terms/__offer-text/terms__offer-text.css);
 @import url(../blocks/team/team.css);
+@import url(../blocks/team/__heading/team__heading.css);
 @import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__accent/team__accent.css);
 @import url(../blocks/team/__subtitle/team__subtitle.css);
 @import url(../blocks/team/__container/team__container.css);
 @import url(../blocks/team/__element/team__element.css);
@@ -101,12 +103,14 @@
 @import url(../blocks/form__section/form__section.css);
 @import url(../blocks/form__section/__container/form__container.css);
 @import url(../blocks/form__section/__title/form__title.css);
+@import url(../blocks/form__section/__accent/form__accent.css);
 @import url(../blocks/form__section/__inputs/form__inputs.css);
 @import url(../blocks/form__section/__input/form__input.css);
 @import url(../blocks/form__section/__agree/form__agree.css);
 @import url(../blocks/form__section/__checkbox/form__checkbox.css);
 @import url(../blocks/form__section/__agree-text/form__agree-text.css);
 @import url(../blocks/form__section/__button/form__button.css);
+@import url(../blocks/form__section//_error/_error.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__container-element/footer__container-element.css);
@@ -119,3 +123,5 @@
 @import url(../blocks/footer/__contact-block/footer__contact-block.css);
 @import url(../blocks/footer/__contact-block-social/footer__contact-block-social.css);
 @import url(../blocks/footer/__social-item/footer__social-item.css);
+@import url(../blocks/button/_footer/button_footer.css);
+@import url(../blocks/button/_footer-text/button_footer-text.css);

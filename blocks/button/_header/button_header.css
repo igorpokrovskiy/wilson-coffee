@@ -6,5 +6,12 @@
     background: transparent;
     border: 2px solid black;
     margin: 31px 83px 31px auto;
+}
 
+.button_header:hover {
+    border: 2px solid #B97A50;
+}
+
+.button_header:active {
+    border: 2px solid rgba(35, 31, 32, 0.5);
 }

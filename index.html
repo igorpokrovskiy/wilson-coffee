@@ -13,15 +13,15 @@
         <img class="logo_place-header" src="./images/header_logo.svg" alt="Wilson Coffee">
         <ul class="menu">
             <li class="menu_devider"></li>
-            <li class="menu_item"><a class="menu_item-link" href="">О нас</a></li>
+            <li class="menu_item"><a class="menu_item-link" href="#about">О нас</a></li>
             <li class="menu_devider"></li>
-            <li class="menu_item"><a class="menu_item-link" href="">Форматы кофеен</a></li>
+            <li class="menu_item"><a class="menu_item-link" href="#options">Форматы кофеен</a></li>
             <li class="menu_devider"></li>
-            <li class="menu_item"><a class="menu_item-link" href="">Что входит в франшизу</a></li>
+            <li class="menu_item"><a class="menu_item-link" href="#include">Что входит в франшизу</a></li>
             <li class="menu_devider"></li>
-            <li class="menu_item"><a class="menu_item-link" href="">Условия франшизы</a></li>
+            <li class="menu_item"><a class="menu_item-link" href="#terms">Условия франшизы</a></li>
             <li class="menu_devider"></li>
-            <li class="menu_item"><a class="menu_item-link" href="">Этапы</a></li>
+            <li class="menu_item"><a class="menu_item-link" href="#steps">Этапы</a></li>
             <li class="menu_devider"></li>
         </ul>
         <button class="button_header" onclick="window.open('tel:+79287603603');"><p class="button_header-text">+7 928 760 36 03</p></button>
@@ -57,6 +57,7 @@
                      <p class="about__table-text">Чистая прибыль - с минимальными<br> вложениями в открытие</p>
                 </div>
             </div>
+            <div class="team__heading">
             <img class="about__pic1" src="./images/about_pic1.jpg">
             <img class="about__pic2" src="/images/about_pic2.jpg">
             <img class="about__accent" src="/images/about_accent.svg">
@@ -69,15 +70,20 @@
             <img class="about__pic3" src="/images/about_pic3.jpg">
             <img class="about__stamp" src="/images/about_stamp.svg">
             <img class="about__pic4" src="/images/about_pic4.jpg">
+            </div>
         </section>
         <section class="video">
+            <div class="team__heading">
             <h2 class="video__title">Лучше один раз увидеть</h2>
-            <img class="video__scratch" src="/images/video_scratch.svg">
+            <img class="video__scratch" src="/images/promo_scratch.svg">
+            </div>
             <iframe class="video__player" width="480" height="270" src="https://dzen.ru/embed/vzCMSJiJgIEw?from_block=partner&from=zen&backoffice=1&mute=0&autoplay=0&tv=0" allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
         </section>
         <section class="options">
-            <h2 class="options__title">Форматы кофеен</h2>
+            <div class="team__heading">
+            <h2 class="options__title" id="options">Форматы кофеен</h2>
             <img class="options__accent" src="/images/options_accent.svg">
+            </div>
             <div class="options__container">
                 <div class="options__element">
                     <img class="options__element-image" src="/images/options_1.png">
@@ -101,7 +107,7 @@
                     </div>
                 </div>
                 <div class="options__element">
-                    <img class="options__element-image" src="/images/options_2.jpg">
+                    <img class="options__element-image" src="/images/options_2.png">
                     <h3 class="options__element-title">Мини кофейня</h3>
                     <p class="options__element-caption">18-30 кв.м; посадочных мест 8-12 чел</p>
                     <p class="option__element-month">Окупаемость от 8 месяцев</p>
@@ -121,7 +127,7 @@
                     </div>
                 </div>
                 <div class="options__element">
-                    <img class="options__element-image" src="/images/options_3.jpg">
+                    <img class="options__element-image" src="/images/options_3.png">
                     <h3 class="options__element-title">Мини кофейня в ТЦ</h3>
                     <p class="options__element-caption">16-22 кв.м; посадочных мест 3-6 чел</p>
                     <p class="option__element-month">Окупаемость от 7 месяцев</p>
@@ -142,8 +148,10 @@
             </div>
         </section>
         <section class="include">
-            <h2 class="include__title">Что входит во франшизу</h2>
+            <div class="team__heading">
+            <h2 class="include__title" id="include">Что входит во франшизу</h2>
             <img class="include__accent" src="/images/include_accent.svg">
+            </div>
             <p class="include__caption">ЧТО ТЫ ПОЛУЧАЕШЬ?<br>
                 ВАЖНО! ПЕРСОНАЛЬНЫЙ МЕНЕДЖЕР И ПРОФЕССИОНАЛЬНАЯ КОМАНДА ДЛЯ ВСЕХ ПАРТНЕРОВ!</p>
             <div class="include__container">
@@ -217,8 +225,10 @@
             </div>
         </section>
         <section class="terms">
-            <h2 class="terms__title">Условия франшизы</h2>
-            <img class="terms__scratch">
+            <div class="team__heading">
+            <h2 class="terms__title" id="terms">Условия франшизы</h2>
+            <img class="terms__scratch" src="/images/promo_scratch.svg">
+            </div>
             <div class="terms__container">
                 <div class="terms__element">
                     <p class="terms__element-title">150.000</p>
@@ -238,7 +248,10 @@
             </div>
         </section>
         <section class="team">
-            <h2 class="team__title">О нас</h2>
+            <div class="team__heading">
+            <h2 class="team__title" id="about">О нас</h2>
+            <img class="team__accent" src="/images/team_accent.svg">
+            </div>
             <p class="team__subtitle">Сеть кофеен Andre Wilson входит в группу компаний «VKUSNOTEKA» основатели которой профессиональная команда 
                 c успешным опытом  работы в  общепите</p>
             <div class="team__container">
@@ -284,14 +297,16 @@
             </div>
         </section>
         <section class="steps">
-            <h2 class="steps__title">5 простых шагов к открытию вашей кофейни!</h2>
-            <img class="steps__scratch">
+            <div class="team__heading">
+            <h2 class="steps__title" id="steps">5 простых шагов к открытию вашей кофейни!</h2>
+            <img class="steps__scratch" src="/images/promo_scratch.svg">
+            </div>
             <div class="steps__digits">
-                <img class="steps__digit" src="/images/digit_1.svg">
-                <img class="steps__digit" src="/images/digit_2.svg">
-                <img class="steps__digit" src="/images/digit_3.svg">
-                <img class="steps__digit" src="/images/digit_4.svg">
-                <img class="steps__digit" src="/images/digit_5.svg">
+                <p class="steps__digit">1</p>
+                <p class="steps__digit">2</p>
+                <p class="steps__digit">3</p>
+                <p class="steps__digit">4</p>
+                <p class="steps__digit">5</p>
             </div>
             <img class="steps__dots" src="/images/steps.svg">
             <div class="steps__container">
@@ -304,18 +319,23 @@
         </section>
         <section class="form__section">
             <div class="form__container">
+                <div class="team__heading">
                 <h2 class="form__title">СКАЧАЙТЕ ПРЕЗЕНТАЦИЮ ФРАНШИЗЫ И ПОДРОБНУЮ ФИНАНСОВУЮ МОДЕЛЬ</h2>
-                <form class="form__inputs">
-                    <input class="form__input" type="text" name="name" placeholder="ВАШЕ ИМЯ">
-                    <input class="form__input" type="tel" name="name" placeholder="НОМЕР ТЕЛЕФОНА">
-                    <input class="form__input" type="email" name="name" placeholder="ПОЧТА">
-                    <input class="form__input" type="text" name="name" placeholder="ВАШ ГОРОД">
-                </form>
+                <img class="form__accent" src="/images/include_accent.svg">
+                </div>
+                <form action="#" id="form">
+                    <div class="form__inputs">
+                    <input id="formName" class="form__input _req" type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+                    <input id="formTel" class="form__input _req" type="tel" name="tel" required placeholder="НОМЕР ТЕЛЕФОНА">
+                    <input id="formEmail" class="form__input _req _email" type="email" name="email" required placeholder="ПОЧТА">
+                    <input id="formCity" class="form__input _req" type="text" name="city" required placeholder="ВАШ ГОРОД">
+                </div>
                 <div class="form__agree">
-                <input class="form__checkbox" type="checkbox">
+                <input id="agreement" class="form__checkbox" type="checkbox" name="agreement">
                 <p class="form__agree-text">Я подтверждаю, что ознакомлен и даю согласие на обработку персональных данных в соответствии с Политикой конфиденциальности</p>
                 </div>
-                <button class="button button_promo form__button"><p class="button__text">Получить смету и презентацию</p></button>
+                <button class="button button_promo form__button" type="submit"><p class="button__text">Получить смету и презентацию</p></button>
+                </form>
             </div>
         </section>
         <footer class="footer">
@@ -325,19 +345,20 @@
                 </div>
                 <div class="footer__container-element">
                     <ul class="footer__link-block">
-                        <li class="footer__link"><a class="footer_item-link" href="">О нас</a></li>
-                        <li class="footer__link"><a class="footer_item-link" href="">Контакты</a></li>
-                        <li class="footer__link"><a class="footer_item-link" href="">Форматы кофеен</a></li>
-                        <li class="footer__link"><a class="footer_item-link" href="">Условия франшизы</a></li>
+                        <li class="footer__link"><a class="footer_item-link" href="#about">О нас</a></li>
+                        <li class="footer__link"><a class="footer_item-link" href="#options">Форматы кофеен</a></li>
+                        <li class="footer__link"><a class="footer_item-link" href="#include">Что входит в франшизу</a></li>
+                        <li class="footer__link"><a class="footer_item-link" href="#terms">Условия франшизы</a></li>
+                        <li class="footer__link"><a class="footer_item-link" href="#steps">Этапы</a></li>
                     </ul>
                     <div class="footer__text-block">
-                        <p class="footer__text-item">Франшиза сети кофеен Andre Wilson</p>
+                        <p class="footer__text-item">Франшиза сети кофеен<br> Andre Wilson</p>
                         <p class="footer__text-item">Политика конфиденциальности. Все права защищены</p>
                     </div>
                 </div>
                 <div class="footer__container-element">
                     <div class="footer__contact-block">
-                        <button class="button_header" onclick="window.open('tel:+79287603603');"><p class="button_header-text">+7 928 760 36 03</p></button>
+                        <button class="button_footer" onclick="window.open('tel:+79287603603');"><p class="button_footer-text">+7 928 760 36 03</p></button>
                         <div class="footer__contact-block-social">
                             <a href=""><img class="footer__social-item" src="/images/inst.svg"></a>
                             <a hred=""><img class="footer__social-item" src="/images/whatsapp.svg"></a>
@@ -352,8 +373,11 @@
 <script>$(function() {$('.marquee').marquee({ duration: 17000, startVisible: true, duplicated: true});});</script>
 <script src="./node_modules/accordionjs/accordion.min.js"></script>
 <script>jQuery(document).ready(function($){
-        $("#my-accordion").accordionjs();
+        $("#my-accordion").accordionjs({
+            closeAble   : true,
+        });
     });
 </script>
+<script src="/scripts/script.js"></script>
 </body>
 </html>

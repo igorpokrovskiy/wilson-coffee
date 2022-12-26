@@ -7,3 +7,11 @@
     border: none;
     margin: 0 368px 434px 560px;
 }
+
+.button__about:hover {
+    background: rgba(183, 145, 118, 1);
+}
+
+.button__about:active {
+    background: rgba(185, 122, 80, 0.5);
+}

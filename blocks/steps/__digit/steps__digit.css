@@ -2,4 +2,11 @@
     margin: 0 auto;
     width: 58px;
     height: 82px;
+    font-family: 'TT Commons';
+    font-size: 114px;
+    font-weight: 500;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.75px;
+    -webkit-text-stroke-color: white;
 }

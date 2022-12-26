@@ -7,3 +7,11 @@
     border: none;
     margin: 0 auto;
 }
+
+.button_promo:hover {
+    background-color: #B79176;
+}
+
+.button_promo:active {
+    background-color: rgba(35, 31, 32, 0.5)
+}
