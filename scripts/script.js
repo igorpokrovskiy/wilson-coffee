@@ -1,6 +1,10 @@
 const form = document.getElementById('form');
-form.addEventListener('submit', formSend);
+const hamburger = document.querySelector('.menu__hamburger');
+const menu = document.querySelector('.menu');
+const closeButton = document.querySelector('.menu__close');
+const menuPopup = document.querySelector('#menu-popup');
 
+form.addEventListener('submit', formSend);
 async function formSend(e) {
     e.preventDefault();
     let error = formValidate(form);
@@ -57,4 +61,20 @@ function formRemoveError(input) {
 
 function emailTest(input) {
     return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
-}
+};
+
+function closeMenu (elem) {
+    elem.classList.remove("menu__popup_opened");
+  };
+function openPopup (elem) {
+    elem.classList.add("menu__popup_opened");
+  };
+closeButton.addEventListener('click', () => {
+    closeMenu(menuPopup);
+    });
+hamburger.addEventListener('click', () => {
+    openPopup(menuPopup);
+    });
+menuPopup.addEventListener('click', () => {
+    closeMenu(menuPopup);
+    });

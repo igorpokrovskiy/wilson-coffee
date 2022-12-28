@@ -2,3 +2,11 @@
     margin: 0 auto;
     padding: 0 84px 85px 84px;
 }
+
+@media screen and (max-width: 480px){
+.include__container {
+    padding: 0;
+    width: 93vw;
+    padding-bottom: 60px;
+}
+}

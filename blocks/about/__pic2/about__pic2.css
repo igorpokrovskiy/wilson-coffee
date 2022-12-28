@@ -1,8 +1,17 @@
 .about__pic2 {
-    position: absolute;
-    left: 85px;
-    top:-10%;
+    position: relative;
+    left: -14%;
+    top:-950px;
     width: 201px;
     height: 369px;
     border-radius: 26.26px;
+}
+
+@media screen and (max-width: 480px){
+    .about__pic2 {
+        width: 128px;
+        height: 233px;
+        left: 4vw;
+        top:-146px;
+    }
 }

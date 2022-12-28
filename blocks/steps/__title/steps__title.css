@@ -10,3 +10,14 @@
     font-weight: 400;
     line-height: 41.3px;
 }
+
+@media screen and (max-width: 480px){
+    .steps__title {
+        width: 330px;
+        height: 84px;
+        font-size: 20px;
+        line-height: 29.5px;
+        padding-top: 50px;
+        padding-bottom: 46px;
+    }
+}

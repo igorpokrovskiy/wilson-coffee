@@ -6,6 +6,18 @@
     line-height: 17.7px;
     text-transform: uppercase;
     color: #B97A50;
-    margin: 0 491px 30px 361px;
-
+    padding-top: 0;
+    padding-left: 28vw;
+    padding-bottom: 30px;
+    margin: 0;
+}
+@media screen and (max-width: 480px){
+    .about__subtitle {
+        width: 337px;
+        font-size: 11px;
+        line-height: 16.55px;
+        margin-left: 15px;
+        margin-top: 0;
+        padding-left: 0;
+    }
 }

@@ -9,3 +9,15 @@
     line-height: 41.3px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 480px){
+ .form__title {
+    margin: 0;
+    width: 322px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 26.55px;
+    padding: 70px 11px 40px 11px;
+    text-align: center;
+ }   
+}

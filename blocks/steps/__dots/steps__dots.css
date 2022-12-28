@@ -4,3 +4,14 @@
     padding-top: 40px;
     display: flex;
 }
+
+@media screen and (max-width: 480px){
+    .steps__dots {
+        transform: rotate(90deg);
+        position: relative;
+        left:-27vw;
+        top:-300px;
+        width: 455px;
+        padding-left: 10vw;
+    }
+}

@@ -3,3 +3,9 @@
     height: 25px;
     padding-left: 18px;
 }
+@media screen and (max-width: 480px){
+    .footer__social-item {
+        padding-left: 0;
+        padding-right: 19px;
+    }
+}

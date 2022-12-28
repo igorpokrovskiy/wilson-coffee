@@ -5,3 +5,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px){
+    .steps__digits {
+        flex-direction: column;
+        width: 50px;
+        height: 511px;
+        margin-left: 38vw;
+    }
+}

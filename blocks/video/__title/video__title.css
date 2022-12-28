@@ -1,9 +1,21 @@
 .video__title {
-    margin: 0;
-    padding: 87px 404px 0 404px;
+    margin: 0 auto;
+    padding-top: 87px;
     font-family: 'Tautz';
     font-size: 28px;
-    line-height: 41.3px;
+    line-height: 40px;
     font-weight: 400;
     text-transform: uppercase;
+    width: 470px;
+}
+@media screen and (max-width: 480px){
+    .video__title {
+        width: 300px;
+        height: 56px;
+        font-size: 20px;
+        line-height: 29.5px;
+        text-align: center;
+        padding:0;
+        padding-top: 60px;
+    } 
 }

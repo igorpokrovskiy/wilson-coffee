@@ -1,8 +1,17 @@
 .team__about {
-    margin: 0 86px 0 86px;
+    margin: 0 auto;
     padding-top: 45px;
-    width: 774px;
+    width: 1109px;
     height: 248px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 480px){
+    .team__about {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 346px;
+        height: 900px;
+    }
 }

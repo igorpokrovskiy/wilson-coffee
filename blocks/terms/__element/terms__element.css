@@ -9,3 +9,13 @@
 .terms__element:last-child {
     border-right: none;
 }
+
+@media screen and (max-width: 480px){
+    .terms__element {
+        border-right: 0;
+        border-bottom: 1.5px solid black;
+    }
+    .terms__element:last-of-type {
+        border-bottom: none;
+    }
+}

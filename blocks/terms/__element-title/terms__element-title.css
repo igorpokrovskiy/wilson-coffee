@@ -9,3 +9,11 @@
     padding: 45px 52px 21px 52px;
     width: 262px;
 }
+
+@media screen and (max-width: 480px){
+    .terms__element-title {
+        padding-top: 37px;
+        font-size: 25px;
+        line-height: 30.5px;
+    }
+}

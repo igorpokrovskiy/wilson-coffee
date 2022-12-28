@@ -6,3 +6,12 @@
     justify-content: space-between;
     width: 873px;
 }
+
+@media screen and (max-width: 480px){
+ .team__logo-block {
+    flex-direction: column;
+    width: 113px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+ }   
+}

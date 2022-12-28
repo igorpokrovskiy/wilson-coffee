@@ -4,3 +4,11 @@
     margin: 0 auto;
     padding: 92px 563px 261px 85px;
 }
+
+@media screen and (max-width: 480px){
+    .promo_offer {
+        padding: 40px 0;
+        width: 95vw;
+        margin-left: 0;
+    }
+}

@@ -10,7 +10,8 @@
 <body class="page">
     <header class="header">
         <nav class="row">
-        <img class="logo_place-header" src="./images/header_logo.svg" alt="Wilson Coffee">
+        <img class="logo_place-header" src="./images/logo1.png" alt="Wilson Coffee">
+        <button class="menu__hamburger"></button> 
         <ul class="menu">
             <li class="menu_devider"></li>
             <li class="menu_item"><a class="menu_item-link" href="#about">О нас</a></li>
@@ -30,10 +31,10 @@
     <main class="content">
         <section class="promo">
             <div class="promo_offer">
-                <h1 class="promo_title">Открой собственную кофейню за 1 месяц и зарабатывай от 120 000 р</h1>
+                <h1 class="promo_title">Открой собственную кофейню за 1 месяц и зарабатывай от<br>  120 000 р</h1>
                 <img class="promo_scratch" src="./images/promo_scratch.svg">
             <p class="promo_subtitle">Наша команда профессионалов поможет тебе в этом!</p>
-            <button class="button button_promo"><p class="button__text">Получить смету и презентацию</p></button>
+            <button class="button button_promo" onclick="window.location.href = '#form-link';"><p class="button__text">Получить смету и презентацию</p></button>
         </div>
         </section>
         <section class="line">
@@ -57,16 +58,16 @@
                      <p class="about__table-text">Чистая прибыль - с минимальными<br> вложениями в открытие</p>
                 </div>
             </div>
-            <div class="team__heading">
-            <img class="about__pic1" src="./images/about_pic1.jpg">
-            <img class="about__pic2" src="/images/about_pic2.jpg">
+            <div class="about__demo">
             <img class="about__accent" src="/images/about_accent.svg">
             <h1 class="about__title">ANDRE WILSON COFFEE - современная, стильная кофейня</h1>
             <h2 class="about__subtitle">это место, где каждый день наши бариста работают по высоким стандартам используя исключительно отборное зерно.</h2>
             <article class="about__text">Ассортимент нашей кофейни очень разнообразен: кофе и кофейные напитки, фирменные чаи, лимонады и молочные коктейли, домашние десерты и выпечка, мягкое мороженное и леденцы.
                 <br>Наш ассортимент тщательно продуман и рассчитан на разную целевую аудиторию и, конечно же, 
                 с учетом сезонного характера.</article>
-            <button class="button button__about"><p class="button__text">Посмотреть  меню</p></button>
+            <button class="button button__about" onclick="window.open('https://disk.yandex.ru/d/dINn6N4OSeCVMg');"><p class="button__text">Посмотреть  меню</p></button>
+            <img class="about__pic1" src="./images/about_pic1.jpg">
+            <img class="about__pic2" src="/images/about_pic2.jpg">
             <img class="about__pic3" src="/images/about_pic3.jpg">
             <img class="about__stamp" src="/images/about_stamp.svg">
             <img class="about__pic4" src="/images/about_pic4.jpg">
@@ -80,7 +81,7 @@
             <iframe class="video__player" width="480" height="270" src="https://dzen.ru/embed/vzCMSJiJgIEw?from_block=partner&from=zen&backoffice=1&mute=0&autoplay=0&tv=0" allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
         </section>
         <section class="options">
-            <div class="team__heading">
+            <div class="options__heading">
             <h2 class="options__title" id="options">Форматы кофеен</h2>
             <img class="options__accent" src="/images/options_accent.svg">
             </div>
@@ -318,8 +319,8 @@
             </div>
         </section>
         <section class="form__section">
-            <div class="form__container">
-                <div class="team__heading">
+            <div class="form__container" id="form-link">
+                <div class="form__heading">
                 <h2 class="form__title">СКАЧАЙТЕ ПРЕЗЕНТАЦИЮ ФРАНШИЗЫ И ПОДРОБНУЮ ФИНАНСОВУЮ МОДЕЛЬ</h2>
                 <img class="form__accent" src="/images/include_accent.svg">
                 </div>
@@ -367,6 +368,16 @@
                 </div>
             </div>
         </footer>
+        <div class="menu__popup" id="menu-popup">
+            <button class="menu__close"></button>
+            <ul class="menu__mobile">
+                <li class="menu__mobile-element"><a class="menu_item-link" href="#about">О нас</a></li>
+                <li class="menu__mobile-element"><a class="menu_item-link" href="#options">Форматы кофеен</a></li>
+                <li class="menu__mobile-element"><a class="menu_item-link" href="#include">Что входит в франшизу</a></li>
+                <li class="menu__mobile-element"><a class="menu_item-link" href="#terms">Условия франшизы</a></li>
+                <li class="menu__mobile-element"><a class="menu_item-link" href="#steps">Этапы</a></li>
+            </ul>
+        </div>
     </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>

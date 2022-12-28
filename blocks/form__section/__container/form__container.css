@@ -6,3 +6,10 @@
     border: 1.75px solid black;
     border-radius: 17.5px;
 }
+
+@media screen and (max-width: 480px){
+    .form__container {
+        width: 345px;
+        height: 604px;
+    }
+}

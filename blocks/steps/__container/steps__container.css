@@ -6,3 +6,14 @@
     justify-content: space-between;
     width: 1040px;
 }
+
+@media screen and (max-width: 480px){
+.steps__container {
+    position: relative;
+    top:-570px;
+    left: 20vw;
+    flex-direction: column;
+    width: 110px;
+    height: 490px;
+}   
+}

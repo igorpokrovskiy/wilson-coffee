@@ -4,3 +4,9 @@
     min-height: 239px;
     padding-top: 26px;
 }
+
+@media screen and (max-width: 480px){
+    .options__element-image {
+        width: 360px
+    }   
+}

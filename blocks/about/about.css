@@ -4,3 +4,9 @@
     height: 1415px;
     background-color: #F8F7F2;
 }
+@media screen and (max-width: 480px){
+ .about {
+    padding-top: 0;
+    height: 1900px;
+ }   
+}

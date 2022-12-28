@@ -4,3 +4,10 @@
     height: 380px;
     border-radius: 26.26px;
 }
+
+@media screen and (max-width: 480px){
+    .team__image{
+        width: 218px;
+        height: 327px;
+    }
+}

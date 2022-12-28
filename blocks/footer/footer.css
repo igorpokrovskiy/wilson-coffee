@@ -3,3 +3,12 @@
     background-color: #B97A50;
     height: 193px;
 }
+
+@media screen and (max-width: 480px){
+    .footer {
+        margin-top: 10vh;
+        height: 264px;
+        overflow: auto; 
+        overflow-x: hidden;
+    }
+}

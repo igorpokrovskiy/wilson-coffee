@@ -7,3 +7,9 @@
     width: 158px;
     text-align: center;
 }
+@media screen and (max-width: 480px){
+    .steps__element {
+        font-size: 13px;
+        width: 110px;
+    }
+}

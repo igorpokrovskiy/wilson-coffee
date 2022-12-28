@@ -8,3 +8,9 @@
     font-size: 18px;
     line-height: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .button__text {
+        font-size: 14.4px;
+    }
+}

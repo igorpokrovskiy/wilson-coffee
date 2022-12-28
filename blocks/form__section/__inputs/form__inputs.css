@@ -5,3 +5,10 @@
     justify-content: space-between;
     width: 952px;
 }
+
+@media screen and (max-width: 480px){
+    .form__inputs {
+        flex-direction: column;
+        width: 250px;
+    }
+}

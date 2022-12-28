@@ -6,3 +6,11 @@
     width: 176px;
     height: 88px;
 }
+
+@media screen and (max-width: 480px){
+    .team__accent {
+        width: 130px;
+        height: 65px;
+        left:34vw;
+    }
+}

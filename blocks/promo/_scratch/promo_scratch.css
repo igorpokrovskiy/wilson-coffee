@@ -2,3 +2,11 @@
     padding-top: 6px;
     padding-left: 440px;
 }
+@media screen and (max-width: 480px){
+    .promo_scratch {
+        width: 153px;
+        height: 11px;
+        padding-left: 13px;
+        padding-top: 0
+    }
+}

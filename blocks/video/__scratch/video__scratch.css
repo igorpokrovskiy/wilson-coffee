@@ -1,5 +1,14 @@
 .video__scratch {
-    margin: 0 373px 26px 657px;
+    margin: 0 29.1vw 26px 51.3vw;
     width: 249px;
     height: 18px;
+}
+
+@media screen and (max-width: 480px){
+    .video__scratch {
+        margin: 0 auto;
+        width: 128px;
+        height: 9px;
+        padding-left: 35vw;
+    }   
 }

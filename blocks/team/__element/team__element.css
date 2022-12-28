@@ -3,3 +3,8 @@
     flex-direction: column;
     align-content: center;
 }
+@media screen and (max-width: 480px){
+    .team__element {
+        padding-bottom: 46px;
+    }
+}

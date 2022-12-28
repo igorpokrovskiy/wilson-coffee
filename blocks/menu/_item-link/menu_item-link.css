@@ -14,3 +14,9 @@
 .menu_item-link:active {
     font-weight: 600;
 }
+
+@media screen and (max-width: 480px){
+  .menu_item-link{
+    font-size: 26px;
+  }  
+}

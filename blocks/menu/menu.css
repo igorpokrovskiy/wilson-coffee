@@ -9,3 +9,9 @@
     margin: 43px 0;
     padding: 0;
 }
+
+@media screen and (max-width:480px) {
+    .menu {
+        display: none;
+    }
+}

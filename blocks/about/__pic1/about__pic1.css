@@ -1,8 +1,18 @@
 .about__pic1 {
     width: 254px;
-    position: absolute;
-    right: 161px;
-    top: -20%;
+    position: relative;
+    right: -67%;
+    top: -1060px;
     background-color: #F8F7F2;
     border-radius: 26.26px;
+}
+
+@media screen and (max-width: 480px){
+ .about__pic1 {
+    width: 160px;
+    height: 233px;
+    position: static;
+    padding-top: 55px;
+    padding-left: 197px;
+ }   
 }

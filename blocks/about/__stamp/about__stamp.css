@@ -1,7 +1,16 @@
 .about__stamp {
     width: 208px;
     transform: rotate(-6.45deg);
-    position: absolute;
-    left: 80.65px;
-    top:63%;
+    position: relative;
+    left: -49%;
+    top:-490px;
+}
+
+@media screen and (max-width: 480px){
+    .about__stamp {
+        width: 131px;
+        position: relative;
+        top:-110px;
+        left:32vw;
+    }
 }

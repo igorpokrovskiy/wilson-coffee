@@ -4,3 +4,11 @@
     top:65%;
     left:15%
 }
+
+@media screen and (max-width: 480px){
+ .steps__scratch {
+    width: 219px;
+    left:25%;
+    top:36%
+ }   
+}

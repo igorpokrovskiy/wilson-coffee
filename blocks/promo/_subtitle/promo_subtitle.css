@@ -9,3 +9,15 @@
     left: 85px;
     bottom: 180px;
 }
+
+@media screen and (max-width: 480px){
+    .promo_subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        width: 251px;   
+        height: 35px;
+        margin-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 28px;
+    }
+}

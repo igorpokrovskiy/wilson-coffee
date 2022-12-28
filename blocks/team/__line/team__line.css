@@ -4,3 +4,10 @@
     height: 1px;
     background-color: black;
 }
+
+@media screen and (max-width: 480px){
+    .team__line {
+        width: 346px;
+        padding-top: 0;
+    }
+}

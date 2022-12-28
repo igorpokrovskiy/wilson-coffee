@@ -3,3 +3,11 @@
     padding: 46px 75px 46px 86px;
     width: 102px;
 }
+
+@media screen and (max-width: 480px){
+    .footer__logo{
+        width: 85px;
+        padding-left: 5vw;
+        padding-top: 7vh;
+    }
+}

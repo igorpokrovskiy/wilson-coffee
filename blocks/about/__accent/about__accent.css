@@ -1,8 +1,17 @@
 .about__accent {
-    position: absolute;
-    left: 330px;
-    top:-3%;
+    position: relative;
+    left: 26vw;
+    top:290px;
     width: 302px;
     height: 74px;
     z-index: 1;
+}
+@media screen and (max-width: 480px){
+ .about__accent {
+    position: relative;
+    width: 222px;
+    left: 0;
+    top:50px;
+    z-index: 1;
+ }   
 }

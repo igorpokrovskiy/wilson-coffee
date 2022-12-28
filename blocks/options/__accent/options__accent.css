@@ -1,8 +1,17 @@
 .options__accent {
     width: 176px;
     height: 88px;
-    position: absolute;
-    left: 36%;
-    top:31%;
+    position: relative;
+    left: 35vw;
+    top:-120px;
     z-index: 1;
+}
+
+@media screen and (max-width: 480px){
+    .options__accent {
+        width: 109px;
+        height: 55px;
+        top: -45px;
+        left: 20vw;
+    }
 }

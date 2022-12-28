@@ -11,3 +11,9 @@
 .button_footer:hover {
     border-color: white;
 }
+
+@media screen and (max-width: 480px){
+    .button_footer {
+        margin-bottom: 18px;
+    }
+}

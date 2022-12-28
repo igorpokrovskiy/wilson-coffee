@@ -1,6 +1,12 @@
 .terms__scratch {
     width: 247px;
-    position: absolute;
-    top:70%;
-    left:34%
+    margin: 0 48.1vw 31px 32.5vw;
+}
+
+@media screen and (max-width: 480px){
+.terms__scratch {
+    width: 130px;
+    height: 15px;
+    left: 17vw;
+}
 }

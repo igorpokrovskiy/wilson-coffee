@@ -4,3 +4,12 @@
     margin: 0 auto;
     background-color: #F8F7F2;
 }
+
+@media screen and (max-width: 480px){
+    .header {
+        background-color: white;
+        width: 100vw;
+        z-index: 2;
+        position: fixed;
+    }
+}

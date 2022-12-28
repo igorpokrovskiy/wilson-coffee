@@ -7,3 +7,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px){
+    .footer__link-block {
+        display: none;
+    }   
+}

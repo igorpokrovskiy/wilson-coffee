@@ -8,3 +8,14 @@
     border: 1.75px solid black;
     border-radius: 17.5px;
 }
+
+@media screen and (max-width: 480px){
+    .terms__container {
+        flex-direction: column;
+        width: 349px;
+        height: 411px;
+        margin: 0 auto;
+        overflow: auto; 
+        overflow-x: hidden;
+    }
+}

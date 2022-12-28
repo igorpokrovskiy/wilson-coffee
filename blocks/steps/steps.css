@@ -2,5 +2,10 @@
     margin: 0 auto;
     height: 522px;
     background-color: #231F20;
+}
 
+@media screen and (max-width: 480px){
+   .steps {
+    height: 740px;
+   } 
 }

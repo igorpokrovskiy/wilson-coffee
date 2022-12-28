@@ -5,7 +5,7 @@
     cursor: pointer;
     background: #B97A50;
     border: none;
-    margin: 0 368px 434px 560px;
+    margin: 0 28vw 434px 44vw;
 }
 
 .button__about:hover {
@@ -14,4 +14,13 @@
 
 .button__about:active {
     background: rgba(185, 122, 80, 0.5);
+}
+
+@media screen and (max-width: 480px){
+    .button__about {
+        margin-left: 15px;
+        width: 258px;
+        height: 46px;
+        margin-bottom: 0;
+    }   
 }

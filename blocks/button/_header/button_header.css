@@ -15,3 +15,9 @@
 .button_header:active {
     border: 2px solid rgba(35, 31, 32, 0.5);
 }
+
+@media screen and (max-width: 480px){
+    .button_header {
+        display: none;
+    }
+}

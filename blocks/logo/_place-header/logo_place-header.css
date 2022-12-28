@@ -1,5 +1,11 @@
 .logo_place-header {
     margin: 8px 92px 8px 82px;
     width: 78px;
-    height: 78px;
+    height: 81px;
+}
+
+@media screen and (max-width: 480px){
+    .logo_place-header {
+        margin: 8px 241px 8px 15px;
+    }
 }

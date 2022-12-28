@@ -10,3 +10,16 @@
     line-height: 29.5px;
     text-align: center;
 }
+
+@media screen and (max-width: 480px){
+    .terms__offer-text {
+        margin: 0 auto;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 9vw;
+        width: 282px;
+        height: 165px;
+        font-size: 17px;
+        line-height: 25.08px;
+    }
+}

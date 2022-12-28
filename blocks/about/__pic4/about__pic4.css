@@ -1,8 +1,18 @@
 .about__pic4 {
     width: 541px;
     height: 294px;
-    position: absolute;
-    right: 83px;
-    top:66%;
+    position: relative;
+    right: -51vw;
+    top:-670px;
     border-radius: 26.26px;
+}
+
+@media screen and (max-width: 480px){
+.about__pic4 {
+    width: 342px;
+    height: 186px;
+    border-radius: 20px;
+    left: 4vw;
+    top:-90px;
+}   
 }

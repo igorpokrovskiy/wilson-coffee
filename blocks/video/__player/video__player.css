@@ -1,6 +1,17 @@
 .video__player {
+    display: block;
     border-radius: 26.26px;
-    width: 913px;
+    width: 931px;
     height: 509px;
-    margin: 0 176px 88px 182px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px){
+ .video__player {
+    display: flex;
+    width: 90vw;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 26px;
+ }   
 }

@@ -7,6 +7,21 @@
     font-size: 28px;
     color: black;
     text-transform: uppercase;
-    margin: 234px 518px 30px 361px;
+    padding-top: 234px;
+    padding-left: 28vw;
+    padding-bottom: 30px;
+    margin: 0;
     z-index: 2;
+}
+
+@media screen and (max-width: 480px){
+ .about__title {
+    position: relative;
+    padding:0;
+    margin-left: 15px;
+    width: 324px;
+    font-size: 20px;
+    line-height: 29.5px;
+    margin-bottom: 0;
+ }   
 }

@@ -1,9 +1,24 @@
 .options__title {
-    margin: 0;
-    padding: 85px 475px 46px 475px;
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 46px;
     font-family: 'Tautz';
     font-size: 28px;
     line-height: 41.3px;
     font-weight: 400;
     text-transform: uppercase;
+    width: 325px;
+}
+
+@media screen and (max-width: 480px){
+ .options__title {
+    position: relative;
+    margin: 0 auto;
+    width: 233px;
+    font-size: 20px;
+    line-height: 29.5px;
+    padding-top: 81px;
+    padding-bottom: 0;
+    z-index: 2;
+ }   
 }

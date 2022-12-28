@@ -3,3 +3,9 @@
     background-color: #F8F7F2;
     margin: 0;
 }
+
+@media screen and (max-width: 480px){
+ .options {
+    height: 2320px;
+ }   
+}

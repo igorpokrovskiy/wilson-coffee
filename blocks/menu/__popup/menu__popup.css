@@ -1,0 +1,11 @@
+.menu__popup {
+    background-color: white;
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    opacity: 0;
+    z-index: 3;
+    transition: opacity 0.6s, visibility 0s 0.6s;
+}

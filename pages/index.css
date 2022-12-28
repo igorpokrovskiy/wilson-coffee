@@ -6,6 +6,12 @@
 @import url(../blocks/menu/_item/menu_item.css);
 @import url(../blocks/menu/_item-link/menu_item-link.css);
 @import url(../blocks/menu/_devider/menu_devider.css);
+@import url(../blocks/menu/__hamburger/menu__hamburger.css);
+@import url(../blocks/menu/__popup/menu__popup.css);
+@import url(../blocks/menu/__popup/_opened/menu__popup_opened.css);
+@import url(../blocks/menu/__close/menu__close.css);
+@import url(../blocks/menu/__mobile/menu__mobile.css);
+@import url(../blocks/menu/__mobile-element/menu__mobile-element.css);
 @import url(../blocks/row/row.css);
 @import url(../blocks/logo/_place-header/logo_place-header.css);
 @import url(../blocks/button/button.css);
@@ -27,6 +33,7 @@
 @import url(../blocks/about/__table-element/about__table-element.css);
 @import url(../blocks/about/__table-title/about__table-title.css);
 @import url(../blocks/about/__table-text/about__table-text.css);
+@import url(../blocks/about/__demo/about__demo.css);
 @import url(../blocks/about/__pic1/about__pic1.css);
 @import url(../blocks/about/__pic2/about__pic2.css);
 @import url(../blocks/about/__pic3/about__pic3.css);
@@ -41,6 +48,7 @@
 @import url(../blocks/video/__scratch/video__scratch.css);
 @import url(../blocks/video/__player/video__player.css);
 @import url(../blocks/options/options.css);
+@import url(../blocks/options/__heading/options__heading.css);
 @import url(../blocks/options/__title/options__title.css);
 @import url(../blocks/options/__accent/options__accent.css);
 @import url(../blocks/options/__container/options__container.css);
@@ -102,6 +110,7 @@
 @import url(../blocks/steps/__element/steps__element.css);
 @import url(../blocks/form__section/form__section.css);
 @import url(../blocks/form__section/__container/form__container.css);
+@import url(../blocks/form__section/__heading/form__heading.css);
 @import url(../blocks/form__section/__title/form__title.css);
 @import url(../blocks/form__section/__accent/form__accent.css);
 @import url(../blocks/form__section/__inputs/form__inputs.css);

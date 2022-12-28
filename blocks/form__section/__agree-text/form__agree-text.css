@@ -7,3 +7,12 @@
     font-size: 14px;
     line-height: 16.1px;
 }
+
+@media screen and (max-width: 480px){
+ .form__agree-text {
+    width: 210px;
+    height: 47px;
+    font-size: 11.3px;
+    line-height: 13px;
+ }   
+}

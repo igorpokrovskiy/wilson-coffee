@@ -8,3 +8,9 @@
    text-align: center;
    text-transform: uppercase; 
 }
+
+@media screen and (max-width: 480px){
+   .team__element-title {
+      padding-top: 23px;
+   }
+}

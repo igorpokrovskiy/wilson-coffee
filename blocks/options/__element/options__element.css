@@ -9,3 +9,15 @@
         border-right: none;
 
 }
+
+@media screen and (max-width: 480px){
+    .options__element {
+        border-right: none;
+        width: 100%;
+        border-bottom: 1.5px solid black;
+    }
+
+    .options__element:last-of-type {
+        border-bottom: none;
+    }
+}
