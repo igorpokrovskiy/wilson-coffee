@@ -4,6 +4,8 @@
     width: 931px;
     height: 509px;
     margin: 0 auto;
+    border: 0;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 480px){

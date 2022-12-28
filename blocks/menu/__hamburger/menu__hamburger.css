@@ -1,5 +1,4 @@
 .menu__hamburger {
-    visibility: hidden;
     cursor: pointer;
     border: none;    
     background: transparent url(/images/hamburger_menu_icon.svg) center no-repeat;
@@ -15,8 +14,13 @@
 
 @media screen and (max-width: 480px){
    .menu__hamburger {
-    visibility: visible;
     margin-top: 32px;
     margin-right: 15px;
    }
+}
+
+@media screen and (min-width:481px) {
+    .menu__hamburger {
+        display: none;
+    }
 }

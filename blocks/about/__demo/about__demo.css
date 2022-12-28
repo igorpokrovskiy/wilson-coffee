@@ -1,3 +1,10 @@
 .about__demo {
     margin: 0 auto;
+    margin-top: -60px;
+}
+
+@media screen and (max-width: 480px){
+    .about__demo {
+        margin-top: 0;
+    }
 }
