@@ -10,3 +10,243 @@
     height: 1900px;
  }   
 }
+
+.about__accent {
+    position: relative;
+    left: 26vw;
+    top:290px;
+    width: 302px;
+    height: 74px;
+    z-index: 1;
+}
+@media screen and (max-width: 480px){
+ .about__accent {
+    position: relative;
+    width: 222px;
+    left: 0;
+    top:50px;
+    z-index: 1;
+ }   
+}
+
+.about__demo {
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+@media screen and (max-width: 480px){
+    .about__demo {
+        margin-top: 0;
+    }
+}
+
+.about__stamp {
+    width: 208px;
+    transform: rotate(-6.45deg);
+    position: relative;
+    left: -49%;
+    top:-490px;
+}
+
+@media screen and (max-width: 480px){
+    .about__stamp {
+        width: 131px;
+        position: relative;
+        top:-110px;
+        left:32vw;
+    }
+}
+
+.about__subtitle {
+    width: 427px;
+    height: 49px;
+    font-family: 'Tautz';
+    font-size: 12px;
+    line-height: 17.7px;
+    text-transform: uppercase;
+    color: #B97A50;
+    padding-top: 0;
+    padding-left: 28vw;
+    padding-bottom: 30px;
+    margin: 0;
+}
+@media screen and (max-width: 480px){
+    .about__subtitle {
+        width: 337px;
+        font-size: 11px;
+        line-height: 16.55px;
+        margin-left: 15px;
+        margin-top: 0;
+        padding-left: 0;
+    }
+}
+
+.about__table {
+    display: flex;
+    margin: 0 auto;
+    width: 1110px;
+    height: 212px;
+    border-radius: 17.5px;
+    border: 1.5px solid black;
+}
+
+@media screen and (max-width: 480px){
+ .about__table {
+    flex-direction: column;
+    width: 92vw;
+    height: 612px;
+    margin: 0;
+    margin-top: 60px;
+    margin-left: 3vw;
+    overflow: auto; 
+    overflow-x: hidden;
+ }   
+}
+
+.about__title {
+    width: 401px;
+    height: 108px;
+    font-family: 'Tautz';
+    font-weight: 400;
+    line-height: 41.3px;
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 234px;
+    padding-left: 28vw;
+    padding-bottom: 30px;
+    margin: 0;
+    z-index: 2;
+}
+
+@media screen and (max-width: 480px){
+ .about__title {
+    position: relative;
+    padding:0;
+    margin-left: 15px;
+    width: 324px;
+    font-size: 20px;
+    line-height: 29.5px;
+    margin-bottom: 0;
+ }   
+}
+
+.about__text {
+    width: 386px;
+    height: 139px;
+    font-family: 'TT Rationalist';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    padding-left: 43vw;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px){
+ .about__text {
+    width: 343px;
+    height: 122px;
+    font-size: 14px;
+    line-height: 18.2px;
+    margin-left: 15px;
+    padding-left: 0;
+ }   
+}
+
+.about__table-title {
+    font-family: 'Tautz';
+    text-transform:uppercase ;
+    font-size: 28px;
+    line-height: 60px;
+    color: #B97A50;
+    margin: 24px 0 25px 25px;
+    border-bottom: 1.5px solid black;
+}
+
+@media screen and (max-width: 480px){
+ .about__table-title {
+    font-size: 24px;
+    line-height: 35.4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }   
+}
+
+.about__table-text {
+    font-family: 'TT Commons';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin: 19px 0 42px 23px;
+}
+
+.about__table-element {
+    width: 370px;
+    border-right: 1.5px solid black;;
+}
+
+.about__table-element:last-of-type {
+    border-right: none;
+}
+
+@media screen and (max-width: 480px){
+ .about__table-element {
+    border-right: none;
+    border-bottom: 1.5px solid black;
+    width: 95vw;
+ }   
+ .about__table-element:last-of-type {
+    border-bottom: none;
+ }
+}
+
+.about__popup {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F2;
+    transition: opacity 0.6s, visibility 0s 0.6s;
+    z-index: 4;
+}
+.about__popup_opened {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.6s;
+}
+
+.about__video-container {
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+@media screen and (max-width: 480px){
+    .about__video-container {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .about__video {
+        padding-bottom: 20px;
+        margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 480px){
+    .video__content {
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+}

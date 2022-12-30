@@ -2,3 +2,7 @@
     margin: 0 auto;
     background-color: #F8F7F2;
 }
+
+.page__lock {
+    overflow: hidden;
+}

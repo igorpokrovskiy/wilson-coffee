@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="pages/index.css">    
     <title>Wilson Coffee - Открой собственную кофейню и зарабатывай</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -14,6 +14,25 @@
     <meta property="og:url" content="http://wilson-coffee.ru" />
     <meta property="og:image" content="http://wilson-coffee.ru/images/about_pic4.jpg"/>
     <meta property="og:description" content="Наша команда профессионалов поможет тебе в этом!"/>
+    <!-- Yandex.Metrika counter -->
+    <meta name="yandex-verification" content="ff3db00a712c44cd" />
+    <meta name="google-site-verification" content="yZa3J6vek6Sj0jQSkXCmwRG7BnRVHqZTme6G_SVzcLk" />
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(91882149, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/91882149" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
 </head>
 <body class="page">
     <header class="header">
@@ -73,7 +92,7 @@
             <div class="about__text">Ассортимент нашей кофейни очень разнообразен: кофе и кофейные напитки, фирменные чаи, лимонады и молочные коктейли, домашние десерты и выпечка, мягкое мороженное и леденцы.
                 <br>Наш ассортимент тщательно продуман и рассчитан на разную целевую аудиторию и, конечно же, 
                 с учетом сезонного характера.</div>
-            <button class="button button__about" onclick="window.open('https://disk.yandex.ru/d/dINn6N4OSeCVMg');"><p class="button__text">Посмотреть  меню</p></button>
+            <button class="button button__about"><p class="button__text">Посмотреть  меню</p></button>
             <img class="about__pic1" src="./images/about_pic1.jpg" alt="О нас">
             <img class="about__pic2" src="/images/about_pic2.jpg" alt="О нас">
             <img class="about__pic3" src="/images/about_pic3.jpg" alt="О нас">
@@ -376,6 +395,16 @@
                 </div>
             </div>
         </footer>
+        <div class="about__popup" id="about-popup">
+            <button class="menu__close"></button>
+            <div class="video__content">
+            <div class="about__video-container">
+                <iframe class="about__video" width="270" height="480" src="https://dzen.ru/embed/vIj4Hqj7uGUs?from_block=partner&from=zen&backoffice=1&mute=0&autoplay=0&tv=0" allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+                <iframe class="about__video" width="270" height="480" src="https://dzen.ru/embed/vFxJMxKPNBkw?from_block=partner&from=zen&backoffice=1&mute=0&autoplay=0&tv=0" allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+                <iframe class="about__video" width="270" height="480" src="https://dzen.ru/embed/vcyD_aW-vQ1Q?from_block=partner&from=zen&backoffice=1&mute=0&autoplay=0&tv=0" allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        </div>
         <div class="menu__popup" id="menu-popup">
             <button class="menu__close"></button>
             <ul class="menu__mobile">

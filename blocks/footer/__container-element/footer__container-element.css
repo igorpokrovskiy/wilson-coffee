@@ -1,8 +1,0 @@
-@media screen and (max-width: 480px){
-    .footer__container-element{
-        width: 94vw;
-    }
-    .footer__container-element:last-of-type{
-        height: 10px;
-    }
-}

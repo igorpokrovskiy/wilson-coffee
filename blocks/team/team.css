@@ -2,3 +2,247 @@
     margin: 0 auto;
     background-color: #F8F7F2;
 }
+
+.team__about {
+    margin: 0 auto;
+    padding-top: 45px;
+    width: 1109px;
+    height: 248px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px){
+    .team__about {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 346px;
+        min-height: 1100px;
+    }
+}
+
+.team__about-element {
+    border-left: 4px solid black;
+}
+
+@media screen and (max-width: 480px){
+ .team__about-element {
+    border-left: none;
+    border-top: 4px solid black;
+ }   
+}
+
+.team__about-element-text {
+    margin: 0 auto;
+    width: 340px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-family: 'TT Rationalist';
+    font-size: 19px;
+    line-height: 23.18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 480px){
+    .team__about-element-text {
+        padding-top: 15px;
+        padding-bottom: 40px;
+        padding-left: 0;
+        width: 82vw;
+        margin-left: 0;
+    }
+}
+
+.team__accent {
+    position: absolute;
+    top:52%;
+    left:43.5%;
+    margin: 0 auto;
+    width: 176px;
+    height: 88px;
+}
+
+@media screen and (max-width: 480px){
+    .team__accent {
+        width: 130px;
+        height: 65px;
+        left:34vw;
+    }
+}
+
+.team__container {
+    margin: 0 auto;
+    padding: 40px 143px 24px 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 998px;
+}
+
+@media screen and (max-width: 480px){
+    .team__container {
+        flex-direction: column;
+        width: 218px;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 40px;
+    }
+}
+
+.team__element {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+@media screen and (max-width: 480px){
+    .team__element {
+        padding-bottom: 46px;
+    }
+}
+
+.team__element-description {
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: 'TT Rationalist';
+    font-size: 16px;
+    line-height: 19.52px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+.team__element-description {
+    padding-top: 4px;
+}
+}
+
+.team__element-title {
+    margin: 0 auto;
+    padding-top: 26px;
+    font-family: 'Tautz';
+    font-size: 19px;
+    line-height: 28.03px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase; 
+ }
+ 
+ @media screen and (max-width: 480px){
+    .team__element-title {
+       padding-top: 23px;
+    }
+ }
+
+ .team__heading {
+    position: relative;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.team__image {
+    margin: 0 auto;
+    width: 253px;
+    height: 380px;
+    border-radius: 26.26px;
+}
+
+@media screen and (max-width: 480px){
+    .team__image{
+        width: 218px;
+        height: 327px;
+    }
+}
+
+.team__line {
+    margin: 0 auto;
+    width: 1106px;
+    height: 1px;
+    background-color: black;
+}
+
+@media screen and (max-width: 480px){
+    .team__line {
+        width: 346px;
+        padding-top: 0;
+    }
+}
+
+.team__logo-block {
+    margin: 0 auto;
+    padding-top: 79px;
+    padding-bottom: 82px;
+    display: flex;
+    justify-content: space-between;
+    width: 873px;
+}
+
+@media screen and (max-width: 480px){
+ .team__logo-block {
+    flex-direction: column;
+    width: 113px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+ }   
+}
+
+.team__logo-element {
+    margin: 0 auto;
+    width: 134px;
+    height: 134px;
+}
+.team__logo-element:first-of-type {
+    height: 138px;
+}
+
+@media screen and (max-width: 480px){
+    .team__logo-element{
+        width: 113px;
+        height: 113px;
+        padding-top: 23px;
+    }
+    .team__logo-element:first-of-type{
+        height: 117px;
+        padding-top: 0;
+    }
+}
+
+.team__subtitle {
+    margin: 0 auto;
+    padding-top: 49px;
+    width: 739px;
+    height: 71px;
+    font-family: 'TT Rationalist';
+    font-size: 20px;
+    line-height: 24.4px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+ .team__subtitle {
+    width: 345px;
+    height: 95px;
+    font-size: 16px;
+    line-height: 19.52px;
+ }   
+}
+
+.team__title {
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 200px;
+    font-family: 'Tautz';
+    font-size: 28px;
+    line-height: 41.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .team__title {
+        font-size: 20px;
+        line-height: 29.5px;
+        padding-top: 86px;
+    }
+}

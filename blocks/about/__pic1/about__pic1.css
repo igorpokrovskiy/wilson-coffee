@@ -16,3 +16,61 @@
     padding-left: 197px;
  }   
 }
+
+
+.about__pic2 {
+    position: relative;
+    left: -14%;
+    top:-950px;
+    width: 201px;
+    height: 369px;
+    border-radius: 26.26px;
+}
+
+@media screen and (max-width: 480px){
+    .about__pic2 {
+        width: 128px;
+        height: 233px;
+        left: 4vw;
+        top:-146px;
+    }
+}
+
+
+.about__pic3 {
+    width: 248px;
+    height: 250px;
+    position: relative;
+    left:-20vw;
+    top:-580px;
+    border-radius: 26.26px;
+}
+
+@media screen and (max-width: 480px){
+    .about__pic3 {
+        width: 157px;
+        height: 158px;
+        left: 16vw;
+        top:-35px
+    }
+}
+
+
+.about__pic4 {
+    width: 541px;
+    height: 294px;
+    position: relative;
+    right: -51vw;
+    top:-670px;
+    border-radius: 26.26px;
+}
+
+@media screen and (max-width: 480px){
+.about__pic4 {
+    width: 342px;
+    height: 186px;
+    border-radius: 20px;
+    left: 4vw;
+    top:-90px;
+}   
+}

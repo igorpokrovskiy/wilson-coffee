@@ -9,3 +9,209 @@
     height: 2320px;
  }   
 }
+
+.options__heading {
+    height: 162px;
+}
+
+
+.options__title {
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 46px;
+    font-family: 'Tautz';
+    font-size: 28px;
+    line-height: 41.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 325px;
+}
+
+@media screen and (max-width: 480px){
+ .options__title {
+    position: relative;
+    margin: 0 auto;
+    width: 233px;
+    font-size: 20px;
+    line-height: 29.5px;
+    padding-top: 81px;
+    padding-bottom: 0;
+    z-index: 2;
+ }   
+}
+
+
+.options__accent {
+    width: 176px;
+    height: 88px;
+    position: relative;
+    left: 35vw;
+    top:-120px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 480px){
+    .options__accent {
+        width: 109px;
+        height: 55px;
+        top: -45px;
+        left: 20vw;
+    }
+}
+
+
+.options__container {
+    display: flex;
+    margin: 0 auto;
+    width: 1107px;
+    height: 673px;
+    border-radius: 17.5px;
+    border: 1.5px solid black;
+}
+
+@media screen and (max-width: 480px){
+ .options__container {
+    flex-direction: column;
+    width: 95vw;
+    margin: 0 auto;
+    height: 2070px;
+ }   
+}
+
+
+.options__element {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+    border-right: 1.5px solid black;
+}
+
+.options__element:last-of-type {
+    border-right: none;
+
+}
+
+@media screen and (max-width: 480px){
+.options__element {
+    border-right: none;
+    width: 100%;
+    border-bottom: 1.5px solid black;
+}
+
+.options__element:last-of-type {
+    border-bottom: none;
+}
+}
+
+.options__element-caption {
+    margin: 0 auto;
+    width: 306px;
+    font-family: 'TT Rationalist';
+    font-size: 17px;
+    padding-top: 8px;
+}
+
+
+.options__element-image {
+    margin: 0 auto;
+    min-width: 358px;
+    min-height: 239px;
+    padding-top: 26px;
+}
+
+@media screen and (max-width: 480px){
+    .options__element-image {
+        width: 360px
+    }   
+}
+
+.option__element-invest {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 306px;
+    height: 20px;
+    font-family: 'TT Rationalist';
+    font-size: 19.26px;
+    font-weight: 400;
+    padding-top: 17px;
+    padding-bottom: 0;
+}
+
+.option__element-invest-name {
+    margin: 0;
+    height: 20px;
+}
+
+.option__element-invest-value {
+    margin: 0;
+    height: 20px;
+}
+
+
+.option__element-month {
+    margin: 0 auto;
+    font-family: 'TT Rationalist';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #B97A50;
+    width: 306px;
+    padding-top: 5px;
+}
+
+.option__element-profit {
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid #B97A50;
+    border-radius: 8.75px;
+    width: 316px;
+    height: 34px;
+    font-family: 'TT Rationalist';
+    font-size: 19px;
+    font-weight: 700;
+    color: #B97A50;
+}
+
+.option__element-profit-name {
+    padding-left: 6px;
+}
+
+.option__element-profit-value {
+    padding-right: 6px;
+}
+
+.option__element-text {
+    margin: 0 auto;      
+    width: 306px;
+    font-family: 'TT Rationalist';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 17px;
+    min-height: 114px;
+}
+
+
+.options__element-title {
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #B97A50;
+    font-family: 'TT Rationalist';
+    font-size: 15.76px;
+    width: 306px;
+    padding-top: 22px;
+
+}
+
+@media screen and (max-width: 480px){
+ .options__element-title {
+    font-size: 14.94px;
+    line-height: 23.42px;
+ }   
+}
+

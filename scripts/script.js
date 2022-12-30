@@ -3,6 +3,8 @@ const hamburger = document.querySelector('.menu__hamburger');
 const menu = document.querySelector('.menu');
 const closeButton = document.querySelector('.menu__close');
 const menuPopup = document.querySelector('#menu-popup');
+const showVideo = document.querySelector('.button__about');
+const showMenuPopup = document.querySelector('#about-popup');
 
 form.addEventListener('submit', formSend);
 async function formSend(e) {
@@ -69,12 +71,25 @@ function closeMenu (elem) {
 function openPopup (elem) {
     elem.classList.add("menu__popup_opened");
   };
+function openVideoPopup (elem) {
+    elem.classList.add("about__popup_opened");
+};
+function closeVideoPopup (elem) {
+    elem.classList.remove("about__popup_opened");
+}
+
 closeButton.addEventListener('click', () => {
     closeMenu(menuPopup);
+    closeVideoPopup(showMenuPopup);
+    document.body.classList.remove('page__lock');
     });
 hamburger.addEventListener('click', () => {
     openPopup(menuPopup);
     });
 menuPopup.addEventListener('click', () => {
     closeMenu(menuPopup);
+    });
+showVideo.addEventListener('click', () => {
+    openVideoPopup(showMenuPopup);
+    document.body.classList.add('page__lock');
     });

@@ -2,3 +2,111 @@
     margin: 0 auto;
     background-color: #B79176;
 }
+
+.include__accent {
+    margin: 0 auto;
+    width: 265px;
+    height: 74px;
+    position: relative;
+    left:30vw;
+    top:-118px;
+}
+
+@media screen and (max-width: 480px){
+    .include__accent {
+        position: relative;
+        width: 187px;
+        height: 52px;
+        left: 28vw;
+        top:-50px;
+    }
+}
+
+.include__block-content {
+    margin: 0 auto;
+    font-family: 'TT Rationalist';
+    font-size: 18px;
+    line-height: 30.64px;
+    list-style: disc;
+}
+
+.include__block-content-element {
+    margin: 0 auto;
+}
+
+.include__button {
+    height: 85px;
+    font-family: 'TT Rationalist';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23.18px;
+    text-transform: uppercase;
+}
+
+.include__button-arrow {
+    width: 20px;
+    height: 25px;
+    padding-right: 31px;
+}
+
+.include__button-title {
+    padding-left: 18px;
+}
+
+.include__caption {
+    margin: 0;
+    padding: 0 82px 50px 82px;
+    font-family: 'TT Commons';
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+.include__caption {
+    width: 370px;
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 26px;
+}
+}
+
+.include__container {
+    margin: 0 auto;
+    padding: 0 84px 85px 84px;
+}
+
+@media screen and (max-width: 480px){
+.include__container {
+    padding: 0;
+    width: 93vw;
+    padding-bottom: 60px;
+}
+}
+
+.include__title {
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 50px;
+    width: 481px;
+    font-family: 'Tautz';
+    font-size: 28px;
+    line-height: 41.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px){
+ .include__title {
+    position: relative;
+    z-index: 2;
+    width: 250px;
+    height: 30px;
+    size: 20px;
+    line-height: 29.5px;
+    margin: 0 auto;
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 0;
+ }   
+}
